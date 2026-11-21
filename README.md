@@ -1,5 +1,7 @@
 # The Cloud Ownership Manifesto
 
+> **Draft for public review until 18 December 2026.** Open an issue with your critique: what is wrong, what is missing, where it would not work in your team. Agree with it? Sign it in [SIGNATORIES.md](SIGNATORIES.md).
+
 v1.0 · CC BY 4.0 · Written by [DevSecOps.cz](https://devsecops.cz)
 
 This manifesto is for everyone who builds and runs cloud infrastructure: platform and DevOps engineers, developers, architects and the people who lead them. It was written by DevSecOps.cz, a managed DevOps team, from how we run our clients' clouds.
