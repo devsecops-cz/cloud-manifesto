@@ -4,18 +4,18 @@ Each value in [The Cloud Ownership Manifesto](README.md) has one principle that 
 
 ## 1. Clear ownership levels
 
-We call this model **Four-Level Ownership**: every cloud resource belongs to exactly one of four levels, and every level has one owner.
+We call this model **Four-Level Ownership**: every cloud resource belongs to exactly one of four levels, and every level is owned by a role, not by a person.
 
-| Level | Scope | Examples | Owner |
+| Level | Scope | Examples | Owning role |
 | --- | --- | --- | --- |
 | Global | Foundation of the whole cloud | Management groups, subscriptions or accounts, policy, hub network, identity, central logging | Cloud Architect |
 | Shared | Components used by several projects | Shared AKS/EKS cluster and its add-ons, container registry, APIM, CI/CD templates | Cloud Architect and Senior Platform Engineer |
-| Project | Infrastructure of one project, shared by its components | Spoke network, database server, Key Vault, cluster namespace, alerts | Cloud Engineers (middle and junior) |
-| Component | Infrastructure of one service | The service's database, queue, storage, managed identity, app, Helm chart | Cloud Engineers (middle and junior) |
+| Project | Infrastructure of one project, shared by its components | Spoke network, database server, Key Vault, cluster namespace, alerts | Cloud Engineer |
+| Component | Infrastructure of one service | The service's database, queue, storage, managed identity, app, Helm chart | Cloud Engineer |
 
 - The level is set by who uses a resource, not by its technology. Used by one service → Component; by several services of a project → Project; by several projects → Shared; the foundation → Global.
 - Everyone works on their own level. The architect does not write component Terraform; a junior does not choose the network topology.
-- A change above your level is a request to that level's owner, never a direct edit.
+- A change above your level is a request to the role that owns that level, never a direct edit.
 
 DevOps is our culture, not a job title. Roles are named after what they own:
 
