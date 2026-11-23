@@ -7,3 +7,4 @@ To sign, add one row at the end of the table in a pull request. No GitHub accoun
 | Name | Role | Company |
 | --- | --- | --- |
 | Gleb Kushnir | Founder | DevSecOps.cz |
+| Martin Mojdl | Platform Engineer | Cetin |
